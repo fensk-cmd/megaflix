@@ -1,33 +1,47 @@
-body{
-    background-image: url(../Imagens/filmes.png)
+body {
+    background-image: url(../Imagens/filmes.png);
+    margin: 0; 
 }
+
 nav {
     display: flex;
-    justify-content: space-between; /* Alterado para space-between */
+    justify-content: space-between;
     align-items: center;
+    padding: 15px; 
 }
 
 nav ul {
     display: flex;
-    /* Remova a largura fixa para permitir que o conteúdo se ajuste automaticamente */
+    align-items: center; 
+    margin: 0; 
 }
 
 nav li {
     list-style: none;
-    margin-left: 35px;
-    margin-right: 35px;
-    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(243, 243, 243);
     font-weight: bold;
     font-size: 19px;
-    padding-top: 15px;
-    /* Remova o width e text-align para permitir que o conteúdo se ajuste automaticamente */
+    text-decoration: none;
 }
-figure{
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+figure {
     display: flex;
     align-items: center;
     color: white;
     font-size: 25px;
-    
+}
+
+.lupa img {
+    width: 35px; 
+    height: 35px;
+    margin-left: 10px; 
 }
 
 
