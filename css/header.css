@@ -1,26 +1,34 @@
 body{
     background-image: url(../Imagens/filmes.png)
 }
-nav{
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Alterado para space-between */
     align-items: center;
 }
-nav figcaption{
-    color: white;
-    font-size: 25px;
-    text-align:  center;
-}
-nav ul{
-    display: flex;
-    width: 25%;
 
+nav ul {
+    display: flex;
+    /* Remova a largura fixa para permitir que o conteúdo se ajuste automaticamente */
 }
-nav li{
+
+nav li {
     list-style: none;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
     color: white;
     font-weight: bold;
-    style
+    font-size: 19px;
+    padding-top: 15px;
+    /* Remova o width e text-align para permitir que o conteúdo se ajuste automaticamente */
 }
+figure{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+

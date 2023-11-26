@@ -1,0 +1,11 @@
+.footer__container {
+    background-color: rgb(110, 100, 110);
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    padding: 20px 0; /* Adicionar algum preenchimento para evitar bordas coladas à margem superior */
+    margin-top: 0; /* Remover a margem superior padrão */
+}
+
+footer h2 {
+    color: white;
+    margin: 0; /* Remover a margem padrão do h2 */
+}

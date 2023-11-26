@@ -1,3 +1,109 @@
+
+.banner__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Adicionado para centralizar verticalmente */
+    text-align: center;
+    height: 50vh; /* Adicionado para ocupar a altura total da viewport */
+}
 .banner_container {
     color: white;
+}
+.banner_container h2{
+    font-size: 45px;
+    
+    padding-left: 65px;
+    
+}
+.button__container {
+    display: flex;
+    
+}
+
+.button1, .button2 {
+    background-color: rgb(235, 8, 148);
+    color: white;
+    border: 2px solid rgb(248, 248, 248); /* Borda da mesma cor do fundo para parecer arredondada */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    margin-right: 10px; /* Espaçamento entre os botões */
+    cursor: pointer; /* Mudar o cursor ao passar o mouse sobre o botão */
+}
+
+.caracteristicas__container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+.title__caracteristicas {
+    font-size: 35px;   
+    margin-bottom: 20px; /* Adicionado espaçamento inferior para separar o título dos blocos */
+}
+
+.bloco1, .bloco2 {
+    display: flex;
+    justify-content: space-around; /* Adicionado para espaçamento uniforme entre os textos */
+}
+.bloco2{
+    margin-bottom: 15px;
+}
+
+.texto1, .texto2, .texto3, .texto4 {
+    border: 2px solid; /* Adicionado borda branca a cada texto */
+    padding: 20px; /* Adicionado espaçamento interno */
+    width: 500px; /* Adicionado largura fixa para uniformidade */
+    box-sizing: border-box; /* Garante que a largura inclui a borda e o preenchimento */
+    background-color: rgb(235, 8, 148);
+}
+
+/* Adicionado margem para separar os textos dentro de cada bloco */
+.texto1, .texto3 {
+    margin-right: 20px;
+}
+
+.texto2, .texto4 {
+    margin-left: 20px;
+}
+.bloco1{
+    display: flex;
+}
+.bloco2{
+    display: flex;
+}
+
+
+
+/*parte 3*/
+
+.recomendados__container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    background-color:rgb(110, 100, 110)
+    
+}
+.title__recomendados {
+    font-size: 35px;   
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.img1 img,
+.img2 img {
+    width: 400px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
 }
